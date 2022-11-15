@@ -1,0 +1,37 @@
+public class Main {
+    public static void main(String[] args) {
+        //  (التمرين الاول)
+        String firstName ="Atheer";
+        String lastName ="Almutairi";
+        System.out.print(firstName);
+        System.out.print(lastName);
+        //  (التمرين الثاني)
+        int age;
+        age=24;
+        System.out.println(age);
+        //  (التمرين الثالث)
+        int firstNumber=2;
+        int secNumber=6;
+        int tot= firstNumber+secNumber;
+        int result= tot/2;
+        System.out.println(result);
+        //  (التمرين الرابع)
+        int hight=5;//الطول
+        int width=7;//العرض
+        int area=hight*width;// المساحة
+        int perimeter=area*2;//المحيط
+        //System.out.println(perimerer);
+        //  (التمرين الخامس)
+        int numberA=23;
+        int numberB=45;
+        boolean number= numberA==numberB;
+        //  (التمرين السادس)
+        int a=55;
+        int b=70;
+        boolean number= a<50;
+        boolean number= a<b;
+        //  (التمرين السابع)
+        boolean number= a<50 || a<b;
+
+    }
+}
